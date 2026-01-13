@@ -10,6 +10,7 @@ This project recreates the Netflix homepage interface, including the hero sectio
 Technologies Used
 
 HTML5 – Structure of the webpage
+
 CSS3 – Styling, layout, positioning, and responsiveness
 
 Project Structure
