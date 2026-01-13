@@ -23,6 +23,7 @@ Netflix-Clone/
 └── README.md         # Project documentation
 
 Features
+
 Netflix-style header with logo, language selector, and sign-in button
 Hero section with background image and CTA
 Trending movies section
@@ -32,12 +33,14 @@ Footer matching Netflix India design
 Clean and modern UI using pure CSS
 
 How to Run the Project
+
 Download or clone the repository
 git clone https://github.com/sanjana1203/netflix-clone.git
 Open the folder
 Double-click index.html or open it in a browser
 
 Learning Outcomes
+
 Improved understanding of CSS positioning (absolute & relative)
 Hands-on practice with layouts and UI cloning
 Learned how real-world websites structure content
