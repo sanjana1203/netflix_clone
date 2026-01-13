@@ -1,5 +1,6 @@
 # netflix_clone
 Netflix Landing Page Clone
+
 A responsive Netflix landing page clone built using HTML and CSS, replicating the look and feel of Netflix’s official homepage. This project focuses on layout design, positioning, and UI styling without using any frameworks or JavaScript.
 
 Project Overview
@@ -28,7 +29,7 @@ Clean and modern UI using pure CSS
 
 How to Run the Project
 Download or clone the repository
-git clone https://github.com/your-username/netflix-clone.git
+git clone https://github.com/sanjana1203/netflix-clone.git
 Open the folder
 Double-click index.html or open it in a browser
 
