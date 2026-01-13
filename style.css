@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    overflow-x: hidden; /*it hides whatever moves out of the box*/
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1280px;
+    height: 80px;
+    z-index: 5;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    height: 100px;
+}
+
+.opt {
+    width: 100px;
+    position: absolute;
+    top: 35px;
+    right: 160px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    border: 1px solid white;
+    padding: 6px 10px;
+}
+
+.signin {
+    position: absolute;
+    top: 35px;
+    right: 60px;
+    background: #e50914;
+    color: white;
+    border: none;
+    padding: 7px 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navbar {
+    position: relative;
+    width: 1280px;
+    height: 650px;      
+}
+
+.bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1280px;
+    height: 650px;
+    object-fit: cover;
+    filter: brightness(0.45);
+}
+
+.content-home {
+    position: absolute;
+    top: 260px;
+    left: 640px;
+    transform: translateX(-50%); /*it will pull back the text to center*/
+    text-align: center;
+    width: 900px;
+}
+
+.content-home h1 {
+    font-size: 56px;
+}
+
+.content-home h3 {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.content-home h4 {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.email-box {
+    position: absolute;
+    top: 520px;
+    left: 350px;
+    width: 420px;
+    height: 60px;
+    background: rgba(0,0,0,0.6);
+    border: 1px solid rgba(255,255,255,0.4); /* can set the border like this also*/
+    color: white;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.btn {
+    position: absolute;
+    top: 520px;
+    left: 790px;
+    height: 62px;
+    padding: 0 25px;
+    background: #e50914;
+    color: white;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer; /* this will give me cursor pointer*/
+}
+
+
+.trends {
+    position: relative;
+    width: 1280px;
+    padding-left: 80px;
+    padding-top: 40px;
+}
+
+.trends h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.trends img {
+    width: 165px;
+    height: 230px;
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: top;
+}
+
+.reasons{
+    position: relative;
+    width: 1280px;
+    padding-left: 80px;
+    padding-top: 40px;
+}
+
+.reasons h2{
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.reasons img{
+    width: 260px;
+    height: 330px;
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: top;
+}
+
+.questions{
+    width: 1280px;
+    padding-left: 80px;
+    padding-top: 40px;
+}
+
+.questions h2{
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.q1,.q2,.q3,.q4,.q5,.q6{
+    position: relative;
+    width: 1000px;
+    background-color: #414141;
+    margin-bottom: 10px; /*other way of giving the space bwt the boxes*/
+    padding: 25px;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.q1 span,.q2 span,.q3 span,.q4 span,.q5 span,.q6 span {
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 40px;
+  font-weight: normal;
+}
+.ready{
+    width: 1280px;
+    padding-left: 80px;
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 120px;
+}
+.ready h2{
+    
+    font-weight: 100;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.emailbox{
+    position: absolute;
+    margin-bottom: 120px;
+    left: 350px;
+    width: 420px;
+    height: 60px;
+    background: rgba(0,0,0,0.6);
+    border: 1px solid rgba(255,255,255,0.4); /* can set the border like this also*/
+    color: white;
+    font-size: 18px;
+    padding-left: 15px;
+}
+.btn2{
+    position: absolute;
+    margin-bottom: 120px;
+    left: 790px;
+    height: 62px;
+    padding: 0 25px;
+    background: #e50914;
+    color: white;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer; /* this will give me cursor pointer*/
+
+}
+
+.foot {
+    width: 1280px;
+    margin-top: 10px;
+    padding: 60px 80px;
+    color: #b3b3b3;
+    font-size: 14px;
+}
+
+.foot h3 {
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.foot h5 {
+    width: 250px;
+    display: inline-block;
+    margin-bottom: 16px;
+    font-size: 14px;
+    font-weight: normal;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.opt2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: block;
+    background: black;
+    color: white;
+    border: 1px solid #555;
+    padding: 6px 10px;
+    width: 100px;
+}
+
+.last-line {
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+.foot h6 {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #737373;
+    font-weight: normal;
+    max-width: 700px;
+}
