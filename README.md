@@ -14,6 +14,7 @@ HTML5 – Structure of the webpage
 CSS3 – Styling, layout, positioning, and responsiveness
 
 Project Structure
+
 Netflix-Clone/
 │
 ├── index.html        # Main HTML file
