@@ -1,47 +1,44 @@
 # netflix_clone
-Netflix Landing Page Clone
+# Netflix Clone Using HTML & CSS
 
-A responsive Netflix landing page clone built using HTML and CSS, replicating the look and feel of Netflix’s official homepage. This project focuses on layout design, positioning, and UI styling without using any frameworks or JavaScript.
+This project is a **Netflix landing page clone** built using **HTML and CSS**.  
+It replicates the visual layout and design of the Netflix homepage, focusing on UI structure, styling, and responsive sections.
 
-Project Overview
+## Project Overview
 
-This project recreates the Netflix homepage interface, including the hero section, trending content, reasons to join, FAQ section, and footer. It is a frontend-only project created for learning and practicing HTML & CSS fundamentals.
+- **Type:** Frontend Web Development  
+- **Domain:** Web Design / UI Development  
+- **Technologies:** HTML, CSS  
+- **Project Focus:** Layout design and styling  
 
-Technologies Used
+The project emphasizes clean structure, visual hierarchy, and accurate replication of a real-world website interface.
 
-HTML5 – Structure of the webpage
+## Features
 
-CSS3 – Styling, layout, positioning, and responsiveness
+- Netflix-style header with logo, language selector, and sign-in button  
+- Hero section with background image and call-to-action  
+- Trending section with movie thumbnails  
+- “More reasons to join” promotional section  
+- Frequently Asked Questions (FAQ) layout  
+- Footer with links and language selection  
 
-Project Structure
+## Technologies Used
 
-Netflix-Clone/
-│
-├── index.html        # Main HTML file
-├── style.css         # Styling file
-├── images/           # Images used in the project
-└── README.md         # Project documentation
+- HTML5  
+- CSS3  
 
-Features
+## Applications
 
-Netflix-style header with logo, language selector, and sign-in button
-Hero section with background image and CTA
-Trending movies section
-“More reasons to join” cards
-FAQ section with expandable UI layout
-Footer matching Netflix India design
-Clean and modern UI using pure CSS
+- Frontend web development practice  
+- UI/UX design learning  
+- Website layout cloning projects  
+- HTML & CSS portfolio projects  
 
-How to Run the Project
+## Conclusion
 
-Download or clone the repository
-git clone https://github.com/sanjana1203/netflix-clone.git
-Open the folder
-Double-click index.html or open it in a browser
+This project demonstrates the ability to design and structure a real-world website interface using only HTML and CSS, showcasing strong fundamentals in frontend development and layout design.
 
-Learning Outcomes
+## 👩‍💻 Author
 
-Improved understanding of CSS positioning (absolute & relative)
-Hands-on practice with layouts and UI cloning
-Learned how real-world websites structure content
-Improved confidence in frontend development
+**sanjana.h.k**
+
