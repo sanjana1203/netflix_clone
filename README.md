@@ -38,7 +38,7 @@ The project emphasizes clean structure, visual hierarchy, and accurate replicati
 
 This project demonstrates the ability to design and structure a real-world website interface using only HTML and CSS, showcasing strong fundamentals in frontend development and layout design.
 
-## 👩‍💻 Author
+## Author
 
 **sanjana.h.k**
 
